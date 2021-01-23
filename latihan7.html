@@ -5,23 +5,27 @@
     <meta name="Description" content="Belajar Html">
     <meta name="keywords" content="HTML,css,Javascript">
     <meta name="author" content="Mardiansyah">
-    <title>Latihan 7</title>
+    <title>Latihan 7 </title>
 </head>
 <body>
 <h1>Input Data Member</h1>
- <table border="1" cellspacing="0" cellpadding ="4">
-    <tr>
-        <td><label for="nama">Nama :</label></td>
-        <td><input type="text" id="nama"></td>           
-    </tr>
-    <tr>
-        <td><label for="nik">NIK :</label></td>
-        <td><input type="text" id="nik"></td>
-    </tr>
-    <tr>
-        <td><label for="jeniskelamin">Jenis Kelamin :</label></td>
-        <td><input type="radio" name="pria">Pria</td>
-    </tr>
-</table>
+<form>
+    <label for="nama">Nama &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <input type="text" id="nama"><br><br>         
+    <label for="nik">NIK &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="text" id="nik"><br><br>
+    <label for="jeniskelamin">Jenis Kelamin &nbsp;&nbsp;&nbsp;:</label>
+    <input type="radio" name="jeniskelamin" id="pria"><label for="pria">Pria</label>
+    <input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">Wanita</label><br><br>
+    <label for="jurusan">Jurusan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+    <select>
+    <option>Teknik Informatika</option>
+    <option>Manajemen Informatika</option>
+    <option>Sistem Informasi</option>
+    </select><br><br>
+    <label for="alamat">Alamat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label><br><br>
+    <textarea name="alamat" id="" cols="35" rows="10"></textarea><br><br>
+    <button>Simpan</button>
+</form>
 </body>
 </html>
